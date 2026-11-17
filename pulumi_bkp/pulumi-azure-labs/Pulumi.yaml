@@ -1,0 +1,11 @@
+name: pulumi-azure-labs
+description: AKS Course
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: azure-python
